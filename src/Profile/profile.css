@@ -1,0 +1,36 @@
+.root3 {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   width: 0 auto;
+   height: 100%;
+}
+
+.avatar3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1em auto;
+
+}
+
+.name3 {
+    font-weight: 700;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.data3 {
+   list-style-type: none;
+   margin: 1em 0;
+   padding: 0;
+
+}
+
+.data3 > li {
+    background-color: #fff;
+    padding: 1em;
+    margin: 0;
+    border: 1px solid #ddd;
+    color: #777;
+}
