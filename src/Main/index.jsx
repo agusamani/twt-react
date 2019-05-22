@@ -79,7 +79,7 @@ class Main extends Component {
        if ( alreadyRetweeted.length === 0) {
            let messages = this.state.messages.map( msg => {
                if ( msgId === msg.id) {
-                   msg.retweets++
+                   msg.retweet++
                }
                return msg
            })
@@ -96,10 +96,10 @@ class Main extends Component {
     handleFavorite (msgId) {
        let alreadyFavorited = this.state.user.favorites.filter( fav => fav === msgId)
 
-       if ( alreadyFavorited === 0) {
+       if ( alreadyFavorited.length === 0) {
            let messages = this.state.messages.map( msg => {
                if (msgId === msg.id ) {
-                   msg.favorites ++
+                   msg.favorites++
                }
                return msg;
            })

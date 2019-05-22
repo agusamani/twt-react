@@ -29,7 +29,7 @@ const propTypes = {
                         displayName={msg.displayName}
                         userName={msg.userName}
                         date={msg.date}
-                        numRetweets={msg.retweets}
+                        numRetweets={msg.retweet}
                         numFavorites={msg.favorites}
                         onRetweet={ () => this.props.onRetweet(msg.id)}
                         onFavorite={ () => this.props.onFavorite(msg.id)}
